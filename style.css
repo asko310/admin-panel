@@ -7,12 +7,33 @@
     --backgroundB2: #956841;
 
 }
+body{
+    background-color: var(--backgroundW);
+}
 H1{
     font-weight: bold;
     font-family: var(--family);
     color: var(--backgroundB);
+    display: block;
+    padding: 10px;
 }
 input{
-    padding-top: 10px;
-    padding-bottom: 10px;
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border-style:solid;
+    border-color: var(--backgroundB2);
+    
+
+}
+button{
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    border-style:solid;
+    border-color: var(--backgroundB2);
+    background-color: var(--text-color);
+    color: var(--backgroundB);
+    font-weight: bold;
 }
