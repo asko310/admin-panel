@@ -11,20 +11,21 @@ body{
     background-color: var(--backgroundW);
 }
 H1{
+    font-size: x-large;
     font-weight: bold;
     font-family: var(--family);
     color: var(--backgroundB);
-    display: block;
+
     padding: 10px;
 }
 input{
-    display: block;
+
     margin: 10px;
     padding: 10px;
     border-radius: 10px;
     border-style:solid;
     border-color: var(--backgroundB2);
-    
+
 
 }
 button{
@@ -36,4 +37,24 @@ button{
     background-color: var(--text-color);
     color: var(--backgroundB);
     font-weight: bold;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: bolder;
+    font-size: xx-large;
+    margin-bottom: 100px;
+}
+
+@media only screen and (max-width: 768px) {
+    input{
+        display: block;
+        width: 91%;
+        margin-top: 20px;
+    }
+    .center{
+        margin-bottom: 50px;
+        text-align: left;
+    }
 }
