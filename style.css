@@ -12,3 +12,7 @@ H1{
     font-family: var(--family);
     color: var(--backgroundB);
 }
+input{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
