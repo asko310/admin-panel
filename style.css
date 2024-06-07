@@ -9,4 +9,6 @@
 }
 H1{
     font-weight: bold;
+    font-family: var(--family);
+    color: var(--backgroundB);
 }
